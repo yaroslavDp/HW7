@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1 class="heading">{{ heading }}</h1>
+    <div style="font-size: 16px;">{{ content }}</div>
+    <div style="display: flex; justify-content: center;" class="card__list">
+        <div style="margin-top: 20px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; width: 300px; min-height: 400px;" class="product__card">
+            <div class="card__img">
+                <img style="width: 100%;" class="img" src="{{ product.src }}" alt="IPhone 13 Pro">
+            </div>
+            <div style="padding: 2px 13px;" class="card__container">
+                <p class="card__title"><span style="font-weight: 700;" class="card__placeholder">Device:</span> {{ product.title }}</p>
+                <p class="card__descr"><span style="font-weight: 700;" class="card__placeholder">Description:</span> {{ product.desc }}</p>
+                <p class="card__price"><span style="font-weight: 700;" class="card__placeholder">Price:</span> {{ product.price }} $</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "title": "Node.JS template App",
+    "heading": "Template App Node JS",
+    "content": "Product List",
+    "product": { 
+        "src": "https://tehnotop.net.ua/image/cache/catalog/i/gm/lb/e128d2e262da0dcf02a8659f60613ef3-680x680.png",
+        "title": "IPhone 13 Pro",
+        "desc": "The iPhone 13 Pro and iPhone 13 Pro Max were praised by reviewers and journalists for its marked improvement in battery life, improved set of cameras, and the addition of ProMotion to the iPhone.",
+        "price": "740"
+    }
+  }
+  
